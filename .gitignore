@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# ML artifacts (optional)
+*.pkl
+*.joblib
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# venv\Scripts\activate
