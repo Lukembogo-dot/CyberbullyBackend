@@ -5,7 +5,7 @@
 This is the engine of the project. It handles real-time data streaming from YouTube, runs AI inference via a custom Scikit-Learn model, and persists high-risk data to a Neon PostgreSQL database.
 
 📂 Folder Structure
-
+```
 backend/
 ├── db/                # Database configuration & Models
 │   ├── database.py    # SQLAlchemy engine
@@ -16,6 +16,7 @@ backend/
 │   └── model.pkl      # Trained Logistic Regression model
 ├── .env               # Database credentials & API keys
 └── main.py            # FastAPI entry point
+```
 
 🛠️ Installation & Setup
 
